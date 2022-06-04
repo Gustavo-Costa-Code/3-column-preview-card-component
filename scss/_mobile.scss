@@ -1,0 +1,39 @@
+@media screen and (max-width: 864px) {
+    body{
+        .container{
+            flex-wrap: wrap;
+            margin: 20px auto;
+
+            .container__box {
+                width: 60%;
+
+                .box__text {
+                    height: auto;
+                    margin: 30px 0;
+                }
+            }
+            .orange {
+                border-radius: 0;
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+            }
+            
+            .dark-cyan {
+                border-radius: 0;
+                border-bottom-left-radius: 12px;
+                border-bottom-right-radius: 12px;
+            }
+        }
+        footer{
+            margin-top: 500px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+            .container .container__box {
+                width: 100%;
+            }
+    }
+}
